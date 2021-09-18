@@ -94,7 +94,6 @@ const unifiedServer = (req, res) => {
       res.setHeader("Contant-Type", "application/json");
       res.writeHead(statusCode);
       res.end(payloadString);
-
       console.log("this is the response : " + statusCode, payloadString);
     });
   });
